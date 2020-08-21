@@ -1,9 +1,10 @@
 #main{
     background-color: gainsboro;
-    width: 99%;
+    width: 95%;
     height: 100%;
     position: center;
     margin: auto;
+    border-radius: 1em;
 }
 
 #title{
@@ -15,11 +16,13 @@
     background-color: white;
     width: 95%;
     margin: auto;
+    border-radius: 1em;
 }
 img, figcaption{
     width: 80%;
     display: block;
     margin: 1em auto;
+    padding: 1.5em;
 }
 #tribute-info{
     display: flex;
@@ -30,16 +33,30 @@ img, figcaption{
 h1,h3{
     margin: auto;
     width: max-content;
+    padding: .5em;
 }
 span{
     font-weight: bold;
 }
 p{
     font-style: italic;
+    line-height: 1.7;
 }
 #link{
     margin: auto;
-    width: 80%;
+    width: max-content;
     font-size: 1.5em;
     font-weight: bold;
+    margin: auto;
+    padding: 2em;
 }
+
+li {
+    padding: 1em;
+    line-height: 1.7;
+}
+
+footer {
+    font-size: 1em;
+}
+
