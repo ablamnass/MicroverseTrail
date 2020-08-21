@@ -1,0 +1,45 @@
+#main{
+    background-color: gainsboro;
+    width: 99%;
+    height: 100%;
+    position: center;
+    margin: auto;
+}
+
+#title{
+    font-weight: bold;
+    padding: 1em;
+}
+
+#img-div{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
+img, figcaption{
+    width: 80%;
+    display: block;
+    margin: 1em auto;
+}
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+h1,h3{
+    margin: auto;
+    width: max-content;
+}
+span{
+    font-weight: bold;
+}
+p{
+    font-style: italic;
+}
+#link{
+    margin: auto;
+    width: 80%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
